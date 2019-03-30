@@ -1,3 +1,7 @@
+/**
+ * @author Linh
+ * @class solution find the subarray which has the largest sum
+ */
 class Solution {
     public int maxSubArray(int[] nums) {
         if (nums.length == 0) {

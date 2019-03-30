@@ -1,3 +1,7 @@
+/**
+	* @author Linh
+	* @class solution to merge two sorted lists
+	*/
 object Solution{
 	def mergeTwoLists(l1: ListNode, l2: ListNode): ListNode = (l1, l2) match{
 		case (null, null) => null

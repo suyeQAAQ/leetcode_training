@@ -1,3 +1,7 @@
+/**
+ * @author Linh
+ * @class solution to find the level of the binary tree of given array, which has the largest sum
+ */
 public class findMaxSumLevel {
     public static int solution(int[] A) {
         int max = A[0];

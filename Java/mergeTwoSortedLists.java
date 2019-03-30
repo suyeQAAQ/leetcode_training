@@ -1,3 +1,7 @@
+/**
+ * @author Linh
+ * @class solution to merge two sorted lists
+ */
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);

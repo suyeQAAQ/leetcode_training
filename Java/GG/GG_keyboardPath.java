@@ -1,3 +1,7 @@
+/**
+ * @author Linh
+ * @class given a keyboard like abcdefghijklmnopqrstuvwxyz, find how long the path is for the index to output specific string like cba
+ */
 public class keyboardPath {
     public static int solution(String S1, String S2) {
         if (S2.length() == 0) {
@@ -24,6 +28,9 @@ public class keyboardPath {
 
     // write your code in Java SE 8
     public static void main(String[] args) {
+        System.out.println(solution("abcdefghijklmnopqrstuvwxyz", "cba"));
         System.out.println(solution("abcdefghijklmnopqrstuvwxyz", ""));
+        System.out.println(solution("abcdefghijklmnopqrstuvwxyz", "ccc"));
+        System.out.println(solution("abcdefghijklmnopqrstuvwxyz", "a"));
     }
 }

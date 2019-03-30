@@ -1,3 +1,7 @@
+/**
+ * @author Linh
+ * @class solution to find the path in triangle which contains the largest sum
+ */
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         

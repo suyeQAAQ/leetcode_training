@@ -1,3 +1,7 @@
+/**
+ * @author Linh
+ * @class solution check if string t is the substring of string s
+ */
 class Solution {
 
     public boolean isSubsequence(String s, String t) {
