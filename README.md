@@ -45,7 +45,22 @@ private void helper(String s, int i, int j, int[] res){
 
 Approach 2: DP
 
+* dp\[i\]\[j\] represent substring\[i, j\] is palindromic or not
 
+```text
+public int countSubstrings(String s) {
+    if(s.length() == 0) return 0;
+    int n = s.length(), res = 0;
+    boolean[][] dp = new boolean[n][n];
+    for(int i = n - 1; i >= 0; i--){
+        for(int j = i; j < n; j++){
+            dp[i][j] = s.charAt(i) == s.charAt(j) && (j - i <= 2 || dp[i+1][j-1]);
+            if(dp[i][j]) res++;
+        }
+    }
+    return res;
+}  
+```
 
 
 
